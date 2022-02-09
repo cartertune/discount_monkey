@@ -3,7 +3,7 @@ import Link from 'next/link'
 function Logo() {
   return (
     <Link href={'/'}>
-      <h2>Discount Monkey</h2>
+      <h4 className="font-bold">Discount Monkey</h4>
     </Link>
   )
 }

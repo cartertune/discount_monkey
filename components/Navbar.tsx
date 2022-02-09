@@ -6,7 +6,7 @@ interface NavbarProps {
 }
 function Navbar({ path }: NavbarProps) {
   return (
-    <div>
+    <div className="container mx-auto py-4 px-5">
       <Logo />
     </div>
   )

@@ -16,7 +16,7 @@ const MainLayout = ({ children, router }: MainLayoutProps) => {
         <title>Discount Monkey</title>
       </Head>
       <Navbar path={router.asPath} />
-      <div className="container max-w-md pt-4">{children}</div>
+      <div className="container mx-auto">{children}</div>
     </div>
   )
 }
