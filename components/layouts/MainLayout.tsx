@@ -10,7 +10,7 @@ interface MainLayoutProps {
 
 const MainLayout = ({ children, router }: MainLayoutProps) => {
   return (
-    <div>
+    <div className="overflow-x-clip">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Discount Monkey</title>
